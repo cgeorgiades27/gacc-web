@@ -38,7 +38,7 @@ export default function ContactPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* HERO / TITLE */}
-      <section className="bg-gradient-to-b from-[#eaf3ed] to-[#fbfaf6] py-16 sm:py-20 border-b border-emerald-950/5">
+      <section className="bg-gradient-to-b from-[#f0f7f3] to-white py-16 sm:py-20 border-b border-emerald-950/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 text-center max-w-3xl">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-[#276840] text-xs sm:text-sm font-semibold mb-4">
             <Sparkles className="w-4 h-4 text-amber-500 fill-amber-500" />
@@ -58,9 +58,9 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Phone Card */}
-            <div className="bg-[#fbfaf6] rounded-3xl p-8 border border-slate-200/80 hover:border-emerald-500/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
+            <div className="bg-[#f9fbf9] rounded-3xl p-8 border border-slate-200/80 hover:border-emerald-500/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
               <div className="space-y-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#eaf3ed] text-[#276840] flex items-center justify-center">
+                <div className="w-14 h-14 rounded-2xl bg-[#f0f7f3] text-[#276840] flex items-center justify-center">
                   <Phone className="w-7 h-7" />
                 </div>
                 <h2 className="text-2xl font-bold text-slate-900">Direct Phone</h2>
@@ -88,7 +88,7 @@ export default function ContactPage() {
             </div>
 
             {/* Email Card */}
-            <div className="bg-[#fbfaf6] rounded-3xl p-8 border border-slate-200/80 hover:border-emerald-500/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
+            <div className="bg-[#f9fbf9] rounded-3xl p-8 border border-slate-200/80 hover:border-emerald-500/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
               <div className="space-y-4">
                 <div className="w-14 h-14 rounded-2xl bg-amber-100 text-amber-900 flex items-center justify-center">
                   <Mail className="w-7 h-7" />
@@ -118,9 +118,9 @@ export default function ContactPage() {
             </div>
 
             {/* Location & Hours Card */}
-            <div className="bg-[#fbfaf6] rounded-3xl p-8 border border-slate-200/80 hover:border-emerald-500/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
+            <div className="bg-[#f9fbf9] rounded-3xl p-8 border border-slate-200/80 hover:border-emerald-500/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
               <div className="space-y-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#eaf3ed] text-[#276840] flex items-center justify-center">
+                <div className="w-14 h-14 rounded-2xl bg-[#f0f7f3] text-[#276840] flex items-center justify-center">
                   <MapPin className="w-7 h-7" />
                 </div>
                 <h2 className="text-2xl font-bold text-slate-900">Visit Our Center</h2>
@@ -155,7 +155,7 @@ export default function ContactPage() {
       </section>
 
       {/* HOW TOURS & ENROLLMENT WORK */}
-      <section className="py-16 sm:py-24 bg-[#fbfaf6] border-b border-slate-200">
+      <section className="py-16 sm:py-24 bg-[#f9fbf9] border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14 space-y-3">
             <div className="inline-block px-3 py-1 rounded-md bg-emerald-100 text-[#276840] text-xs font-bold uppercase tracking-wider">

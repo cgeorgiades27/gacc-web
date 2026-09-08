@@ -46,7 +46,7 @@ export default function ProgramsPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* HEADER HERO */}
-      <section className="bg-gradient-to-b from-[#eaf3ed] to-[#fbfaf6] py-16 sm:py-20 border-b border-emerald-950/5">
+      <section className="bg-gradient-to-b from-[#f0f7f3] to-white py-16 sm:py-20 border-b border-emerald-950/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 text-center max-w-3xl">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-[#276840] text-xs sm:text-sm font-semibold mb-4">
             <Sparkles className="w-4 h-4 text-amber-500 fill-amber-500" />
@@ -81,7 +81,7 @@ export default function ProgramsPage() {
       </section>
 
       {/* CURRICULUM HIGHLIGHTS */}
-      <section className="py-16 sm:py-24 bg-[#fbfaf6] border-b border-slate-200">
+      <section className="py-16 sm:py-24 bg-[#f9fbf9] border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             <div className="lg:col-span-5 space-y-6">
@@ -142,7 +142,7 @@ export default function ProgramsPage() {
 
           <FaqAccordion />
 
-          <div className="mt-10 p-6 bg-[#fbfaf6] rounded-2xl border border-slate-200 text-center space-y-3">
+          <div className="mt-10 p-6 bg-[#f9fbf9] rounded-2xl border border-slate-200 text-center space-y-3">
             <p className="text-sm font-semibold text-slate-800">
               Have a specific question not answered here?
             </p>

@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fbfaf6;
+  --background: #ffffff;
   --foreground: #1e293b;
   --brand-green: #276840;
   --brand-green-dark: #1b492d;
-  --brand-green-light: #eaf3ed;
+  --brand-green-light: #f0f7f3;
   --brand-gold: #e59325;
   --brand-gold-dark: #c57b16;
   --brand-gold-light: #fef7ec;
@@ -48,7 +48,7 @@ body {
 }
 
 .bg-brand-sage {
-  background-color: #eaf3ed;
+  background-color: #f0f7f3;
 }
 
 .text-brand-gold {
@@ -60,5 +60,5 @@ body {
 }
 
 .bg-brand-cream {
-  background-color: #fbfaf6;
+  background-color: #ffffff;
 }

@@ -67,7 +67,7 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* HERO SECTION */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-[#eaf3ed]/70 via-[#fbfaf6] to-[#fbfaf6] py-16 sm:py-24 border-b border-emerald-950/5">
+      <section className="relative overflow-hidden bg-gradient-to-b from-[#f0f7f3]/80 via-white to-white py-16 sm:py-24 border-b border-emerald-950/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Hero Left Content */}
@@ -185,9 +185,9 @@ export default function Home() {
               return (
                 <div
                   key={idx}
-                  className="p-6 rounded-2xl bg-[#fbfaf6] border border-slate-200/80 hover:border-emerald-200 hover:bg-[#eaf3ed]/40 transition-all flex items-start gap-4"
+                  className="p-6 rounded-2xl bg-[#f9fbf9] border border-slate-200/80 hover:border-emerald-200 hover:bg-[#f0f7f3]/50 transition-all flex items-start gap-4"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-[#eaf3ed] text-[#276840] flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-[#f0f7f3] text-[#276840] flex items-center justify-center shrink-0">
                     <Icon className="w-6 h-6" />
                   </div>
                   <div>
@@ -206,7 +206,7 @@ export default function Home() {
       </section>
 
       {/* OUR STORY / WELCOME SECTION */}
-      <section className="py-16 sm:py-24 bg-[#fbfaf6]">
+      <section className="py-16 sm:py-24 bg-[#f9fbf9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Story Image */}
@@ -307,7 +307,7 @@ export default function Home() {
       </section>
 
       {/* TESTIMONIALS */}
-      <section className="py-16 sm:py-24 bg-[#fbfaf6]">
+      <section className="py-16 sm:py-24 bg-[#f9fbf9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14 space-y-3">
             <div className="inline-block px-3 py-1 rounded-md bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-wider">

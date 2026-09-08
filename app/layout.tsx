@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col bg-[#fbfaf6] text-slate-800 selection:bg-[#276840] selection:text-white font-sans">
+      <body className="min-h-full flex flex-col bg-white text-slate-800 selection:bg-[#276840] selection:text-white font-sans">
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

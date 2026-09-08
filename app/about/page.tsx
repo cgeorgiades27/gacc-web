@@ -60,7 +60,7 @@ export default function AboutPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* HEADER HERO */}
-      <section className="bg-gradient-to-b from-[#eaf3ed] to-[#fbfaf6] py-16 sm:py-20 border-b border-emerald-950/5">
+      <section className="bg-gradient-to-b from-[#f0f7f3] to-white py-16 sm:py-20 border-b border-emerald-950/5">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 text-center max-w-3xl">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-[#276840] text-xs sm:text-sm font-semibold mb-4">
             <Sparkles className="w-4 h-4 text-amber-500 fill-amber-500" />
@@ -141,7 +141,7 @@ export default function AboutPage() {
       </section>
 
       {/* MEET THE DIRECTOR */}
-      <section className="py-16 sm:py-24 bg-[#fbfaf6] border-b border-slate-200">
+      <section className="py-16 sm:py-24 bg-[#f9fbf9] border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="bg-white rounded-3xl p-8 sm:p-12 border border-slate-200 shadow-sm">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
@@ -187,7 +187,7 @@ export default function AboutPage() {
                   </a>
                   <Link
                     href="/contact"
-                    className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-xs font-bold text-[#276840] bg-[#eaf3ed] hover:bg-[#d5e8dc] transition-colors"
+                    className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-xs font-bold text-[#276840] bg-[#f0f7f3] hover:bg-[#e2f0e7] transition-colors"
                   >
                     <Calendar className="w-3.5 h-3.5" />
                     <span>Schedule a Tour</span>
@@ -220,10 +220,10 @@ export default function AboutPage() {
               return (
                 <div
                   key={i}
-                  className="p-7 rounded-3xl bg-[#fbfaf6] border border-slate-200/80 hover:border-emerald-300 hover:shadow-md transition-all flex flex-col justify-between"
+                  className="p-7 rounded-3xl bg-[#f9fbf9] border border-slate-200/80 hover:border-emerald-300 hover:shadow-md transition-all flex flex-col justify-between"
                 >
                   <div className="space-y-4">
-                    <div className="w-12 h-12 rounded-2xl bg-[#eaf3ed] text-[#276840] flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-2xl bg-[#f0f7f3] text-[#276840] flex items-center justify-center">
                       <Icon className="w-6 h-6" />
                     </div>
                     <h3 className="font-bold text-slate-900 text-lg">
@@ -241,7 +241,7 @@ export default function AboutPage() {
       </section>
 
       {/* FACILITY & CLASSROOM HIGHLIGHTS */}
-      <section className="py-16 sm:py-24 bg-[#fbfaf6]">
+      <section className="py-16 sm:py-24 bg-[#f9fbf9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             <div className="lg:col-span-6 space-y-6">
