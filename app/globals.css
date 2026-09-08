@@ -5,7 +5,7 @@
   --foreground: #1e293b;
   --brand-green: #276840;
   --brand-green-dark: #1b492d;
-  --brand-green-light: #f0f7f3;
+  --brand-green-light: #f7fbf8;
   --brand-gold: #e59325;
   --brand-gold-dark: #c57b16;
   --brand-gold-light: #fef7ec;
@@ -48,7 +48,7 @@ body {
 }
 
 .bg-brand-sage {
-  background-color: #f0f7f3;
+  background-color: #f7fbf8;
 }
 
 .text-brand-gold {

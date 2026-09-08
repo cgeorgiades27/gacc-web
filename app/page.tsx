@@ -67,24 +67,29 @@ export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* HERO SECTION */}
-      <section className="relative overflow-hidden bg-gradient-to-b from-[#f0f7f3]/80 via-white to-white py-16 sm:py-24 border-b border-emerald-950/5">
+      <section className="relative overflow-hidden bg-gradient-to-br from-emerald-100/70 via-amber-50/60 to-sky-100/70 py-16 sm:py-24 border-b border-emerald-100/60">
+        {/* Colorful Ambient Glow Orbs */}
+        <div className="absolute -top-16 -left-16 w-80 h-80 bg-gradient-to-tr from-emerald-300/40 to-teal-200/40 rounded-full blur-3xl pointer-events-none -z-10" />
+        <div className="absolute top-10 right-0 w-96 h-96 bg-gradient-to-bl from-amber-300/40 via-orange-200/40 to-rose-200/30 rounded-full blur-3xl pointer-events-none -z-10" />
+        <div className="absolute -bottom-20 left-1/3 w-80 h-80 bg-gradient-to-tl from-sky-300/40 to-indigo-200/30 rounded-full blur-3xl pointer-events-none -z-10" />
+
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Hero Left Content */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 border border-emerald-300/60 text-[#276840] text-xs sm:text-sm font-semibold shadow-xs">
+              <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-xs border border-amber-300/90 text-amber-950 text-xs sm:text-sm font-bold shadow-xs">
                 <Sparkles className="w-4 h-4 text-amber-500 fill-amber-500" />
                 <span>Proudly Serving Our Community for 25 Years</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
                 A Nurturing Daycare That Feels{" "}
-                <span className="text-[#276840] underline decoration-amber-400 decoration-wavy decoration-2">
+                <span className="text-[#276840] underline decoration-amber-400 decoration-wavy decoration-4">
                   Just Like Home
                 </span>
               </h1>
 
-              <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+              <p className="text-base sm:text-lg text-slate-700 leading-relaxed max-w-2xl mx-auto lg:mx-0 font-normal">
                 Welcome to Green Acres Child Care Center! We welcome children from 1’s through VPK with a nurturing, play-based environment designed to cultivate curiosity, kindness, and confidence.
               </p>
 
@@ -92,32 +97,32 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
                 <Link
                   href="/contact"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full text-base font-bold text-white bg-[#276840] hover:bg-[#1b4b2e] shadow-md hover:shadow-lg transition-all"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full text-base font-bold text-white bg-[#276840] hover:bg-[#1b4b2e] shadow-md hover:shadow-xl hover:scale-[1.02] transition-all"
                 >
                   <Calendar className="w-5 h-5" />
                   <span>Schedule a Tour</span>
                 </Link>
                 <a
                   href="tel:727-393-8352"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full text-base font-bold text-[#276840] bg-white hover:bg-emerald-50 border border-emerald-200 shadow-xs transition-all"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full text-base font-bold text-slate-900 bg-white hover:bg-amber-50 border-2 border-amber-400 shadow-sm hover:shadow-md hover:scale-[1.02] transition-all"
                 >
-                  <Phone className="w-5 h-5" />
+                  <Phone className="w-5 h-5 text-[#276840]" />
                   <span>(727) 393-8352</span>
                 </a>
               </div>
 
               {/* Quick perks */}
-              <div className="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-x-6 gap-y-2 text-xs text-slate-600 font-medium">
-                <div className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#276840]" />
+              <div className="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-2.5 text-xs font-semibold">
+                <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-100/90 text-emerald-950 border border-emerald-300/80 shadow-2xs">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-[#276840]" />
                   <span>1&apos;s through VPK</span>
                 </div>
-                <div className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#276840]" />
+                <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-100/90 text-amber-950 border border-amber-300/80 shadow-2xs">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-amber-700" />
                   <span>6:30 AM – 6:00 PM Mon–Fri</span>
                 </div>
-                <div className="flex items-center gap-1.5">
-                  <CheckCircle2 className="w-4 h-4 text-[#276840]" />
+                <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-sky-100/90 text-sky-950 border border-sky-300/80 shadow-2xs">
+                  <CheckCircle2 className="w-3.5 h-3.5 text-sky-700" />
                   <span>After School & Summer Camp</span>
                 </div>
               </div>
@@ -126,8 +131,8 @@ export default function Home() {
             {/* Hero Right Visuals */}
             <div className="lg:col-span-5 relative flex justify-center">
               <div className="relative w-full max-w-md">
-                {/* Decorative blob backdrop */}
-                <div className="absolute -inset-4 bg-gradient-to-tr from-emerald-200/50 to-amber-200/50 rounded-3xl blur-xl -z-10" />
+                {/* Decorative multi-color blob backdrop */}
+                <div className="absolute -inset-4 bg-gradient-to-tr from-emerald-300/60 via-amber-300/60 to-sky-300/60 rounded-3xl blur-xl -z-10" />
 
                 <div className="relative rounded-3xl overflow-hidden border-4 border-white shadow-2xl bg-white p-3 space-y-3">
                   <div className="relative h-64 sm:h-72 w-full rounded-2xl overflow-hidden">
@@ -140,8 +145,8 @@ export default function Home() {
                     />
                   </div>
 
-                  <div className="p-3 bg-[#eaf3ed] rounded-xl flex items-center gap-4">
-                    <div className="relative w-14 h-14 shrink-0 bg-white rounded-lg p-1 shadow-xs">
+                  <div className="p-3 bg-gradient-to-r from-emerald-100/90 to-amber-100/80 border border-emerald-200/60 rounded-xl flex items-center gap-4">
+                    <div className="relative w-14 h-14 shrink-0 bg-white rounded-lg p-1 shadow-xs border border-emerald-100">
                       <Image
                         src="/images/hero-illustration.png"
                         alt="Playful learning badge"
@@ -153,7 +158,7 @@ export default function Home() {
                       <p className="font-bold text-sm text-[#276840]">
                         Play-Based Early Learning
                       </p>
-                      <p className="text-xs text-slate-600">
+                      <p className="text-xs text-slate-700">
                         Preparing your child for life & kindergarten with joy.
                       </p>
                     </div>
@@ -161,12 +166,12 @@ export default function Home() {
                 </div>
 
                 {/* Floating badge */}
-                <div className="absolute -bottom-5 -left-4 sm:-left-6 bg-white py-2.5 px-4 rounded-2xl shadow-lg border border-slate-100 flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-700">
-                    <Star className="w-5 h-5 fill-amber-400 text-amber-500" />
+                <div className="absolute -bottom-5 -left-4 sm:-left-6 bg-white py-2.5 px-4 rounded-2xl shadow-lg border border-amber-200/80 flex items-center gap-3">
+                  <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-amber-400 to-yellow-300 flex items-center justify-center text-slate-950 shadow-xs">
+                    <Star className="w-5 h-5 fill-slate-900 text-slate-900" />
                   </div>
                   <div>
-                    <div className="flex text-amber-400 text-xs">★★★★★</div>
+                    <div className="flex text-amber-500 text-xs">★★★★★</div>
                     <p className="text-xs font-bold text-slate-800">Top-Rated by Families</p>
                   </div>
                 </div>

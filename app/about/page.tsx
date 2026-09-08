@@ -60,9 +60,11 @@ export default function AboutPage() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* HEADER HERO */}
-      <section className="bg-gradient-to-b from-[#f0f7f3] to-white py-16 sm:py-20 border-b border-emerald-950/5">
+      <section className="relative overflow-hidden bg-gradient-to-br from-emerald-100/70 via-amber-50/60 to-purple-100/60 py-16 sm:py-20 border-b border-emerald-100/60">
+        <div className="absolute -top-12 -left-12 w-64 h-64 bg-emerald-300/30 rounded-full blur-2xl pointer-events-none -z-10" />
+        <div className="absolute -bottom-12 -right-12 w-64 h-64 bg-amber-300/30 rounded-full blur-2xl pointer-events-none -z-10" />
         <div className="max-w-7xl mx-auto px-4 sm:px-8 text-center max-w-3xl">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-100 text-[#276840] text-xs sm:text-sm font-semibold mb-4">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-xs border border-amber-300 text-amber-950 text-xs sm:text-sm font-bold shadow-xs mb-4">
             <Sparkles className="w-4 h-4 text-amber-500 fill-amber-500" />
             <span>Family-Owned & Operated in Seminole</span>
           </div>
