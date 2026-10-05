@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "Green Acres Child Care Center | Seminole, FL Daycare & VPK",
   description:
-    "A local, family-owned daycare proudly serving our Seminole community for over 25 years. Welcoming 1's through VPK with a nurturing, play-based environment that feels just like home.",
+    "A local, family-owned daycare proudly serving our Seminole community for over 30 years. Welcoming 1's through VPK with a nurturing, play-based environment that feels just like home.",
   keywords: [
     "Green Acres Child Care",
     "Daycare Seminole FL",
@@ -18,7 +18,11 @@ export const metadata: Metadata = {
     "Summer Camp",
   ],
   icons: {
-    icon: "/images/logo.png",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/images/favicon-g.png", type: "image/png" },
+    ],
+    apple: "/images/favicon-g.png",
   },
 };
 

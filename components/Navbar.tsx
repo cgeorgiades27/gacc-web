@@ -47,7 +47,7 @@ export default function Navbar() {
           </div>
           <div className="flex items-center gap-3">
             <span className="inline-flex items-center rounded-full bg-amber-400/20 px-2 py-0.5 text-[11px] font-semibold text-amber-200 border border-amber-300/30">
-              25 Years of Caring Excellence
+              30+ Years of Caring Excellence
             </span>
             <span className="hidden sm:inline-block text-emerald-200 text-xs">
               Florida VPK Provider

@@ -44,8 +44,8 @@ export default function Home() {
   const trustBadges = [
     {
       icon: Award,
-      title: "25+ Years in Seminole",
-      desc: "Trusted by generations of local Pinellas families since 2000.",
+      title: "30+ Years in Seminole",
+      desc: "Trusted by generations of local Pinellas families for over three decades.",
     },
     {
       icon: HeartHandshake,
@@ -79,12 +79,12 @@ export default function Home() {
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/90 backdrop-blur-xs border border-amber-300/90 text-amber-950 text-xs sm:text-sm font-bold shadow-xs">
                 <Sparkles className="w-4 h-4 text-amber-500 fill-amber-500" />
-                <span>Proudly Serving Our Community for 25 Years</span>
+                <span>Proudly Serving Our Community for Over 30 Years</span>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
                 A Nurturing Daycare That Feels{" "}
-                <span className="text-[#276840] underline decoration-amber-400 decoration-wavy decoration-4">
+                <span className="text-[#276840]">
                   Just Like Home
                 </span>
               </h1>
@@ -241,7 +241,7 @@ export default function Home() {
                     </div>
                   </div>
                   <p className="text-xs text-slate-500 italic pt-1">
-                    “Leading Green Acres since 2019, carrying forward our family&apos;s proud 25-year legacy of loving early childcare.”
+                    “Leading Green Acres since 2019, carrying forward our family&apos;s proud 30+ year legacy of loving early childcare.”
                   </p>
                 </div>
               </div>
@@ -253,10 +253,10 @@ export default function Home() {
                 Our Story & Heritage
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
-                A Cornerstone of the Seminole Community for Over Two Decades
+                A Cornerstone of the Seminole Community for Over Three Decades
               </h2>
               <p className="text-base text-slate-600 leading-relaxed">
-                Green Acres Daycare has been a cornerstone of the community for over two decades. Our commitment to providing a safe, enriching environment for young children has made us a trusted choice for generations of families.
+                Green Acres Daycare has been a cornerstone of the community for over 30 years. Our commitment to providing a safe, enriching environment for young children has made us a trusted choice for generations of families.
               </p>
               <p className="text-base text-slate-600 leading-relaxed">
                 We believe in the importance of early childhood education and strive to create a supportive community for both children and parents. At Green Acres, we stand out by offering a curriculum that balances learning and play, preparing children for their academic journey while ensuring they have fun along the way.
@@ -364,7 +364,7 @@ export default function Home() {
                 Ready to Experience Green Acres?
               </h2>
               <p className="text-emerald-100 text-sm sm:text-base leading-relaxed">
-                Come visit our classrooms, meet our caring educators, and see why families in Seminole have trusted us for 25 years. We look forward to meeting you and your child!
+                Come visit our classrooms, meet our caring educators, and see why families in Seminole have trusted us for over 30 years. We look forward to meeting you and your child!
               </p>
               <div className="flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-emerald-200 pt-2">
                 <span className="flex items-center gap-1.5">

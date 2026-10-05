@@ -15,7 +15,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Us | Green Acres Child Care Center - Seminole, FL",
   description:
-    "Learn about Green Acres Daycare, our 25-year history in Seminole, our director Alycia Manley, and our nurturing play-based philosophy.",
+    "Learn about Green Acres Daycare, our 30+ year history in Seminole, our director Alycia Manley, and our nurturing play-based philosophy.",
 };
 
 export default function AboutPage() {
@@ -72,7 +72,7 @@ export default function AboutPage() {
             About Green Acres Child Care
           </h1>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
-            Proudly serving our community for 25 years with a warm, play-based environment that fosters early growth and prepares every child for future success.
+            Proudly serving our community for over 30 years with a warm, play-based environment that fosters early growth and prepares every child for future success.
           </p>
         </div>
       </section>
@@ -87,10 +87,10 @@ export default function AboutPage() {
                 Our History & Purpose
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
-                25 Years of Caring for Seminole&apos;s Little Ones
+                Over 30 Years of Caring for Seminole&apos;s Little Ones
               </h2>
               <p className="text-slate-600 text-base leading-relaxed">
-                Green Acres is a local, family-owned daycare proudly serving our community for 25 years. We welcome children from 1’s through VPK with a nurturing, play-based environment that feels just like home.
+                Green Acres is a local, family-owned daycare proudly serving our community for over 30 years. We welcome children from 1’s through VPK with a nurturing, play-based environment that feels just like home.
               </p>
               <p className="text-slate-600 text-base leading-relaxed">
                 Our team is dedicated to providing a safe and loving space for children to learn and grow. We believe in the importance of early childhood education and strive to create a supportive community for both children and parents.

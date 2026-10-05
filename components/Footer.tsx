@@ -9,18 +9,16 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-800">
           {/* Col 1: Brand Info */}
           <div className="space-y-4">
-            <div className="bg-white/95 p-3 rounded-2xl inline-block">
-              <div className="relative h-10 w-44">
-                <Image
-                  src="/images/logo.png"
-                  alt="Green Acres Child Care Center"
-                  fill
-                  className="object-contain"
-                />
-              </div>
+            <div className="relative h-12 w-48">
+              <Image
+                src="/images/logo-white.png"
+                alt="Green Acres Child Care Center"
+                fill
+                className="object-contain object-left"
+              />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
-              A local, family-owned daycare proudly serving Seminole and Pinellas County for over 25 years. Providing a nurturing, play-based environment that feels just like home.
+              A local, family-owned daycare proudly serving Seminole and Pinellas County for over 30 years. Providing a nurturing, play-based environment that feels just like home.
             </p>
             <div className="flex items-center gap-2 text-xs text-amber-400 font-medium">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />
@@ -91,7 +89,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/programs#vpk" className="hover:text-white transition-colors font-medium text-amber-300">
+                <Link href="/programs#vpk" className="hover:text-white transition-colors">
                   Voluntary Pre-K (VPK)
                 </Link>
               </li>
