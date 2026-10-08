@@ -27,9 +27,9 @@ export default function Home() {
     },
     {
       quote:
-        "Knowing our child is in a safe, loving, and family-owned daycare makes all the difference. Miss Alycia and her teachers treat every kid like family.",
+        "Knowing our child is in a safe, loving, and family-owned pre school makes all the difference. Miss Alycia and her teachers treat every kid like family.",
       author: "Michael & Jessica R.",
-      role: "VPK & After-Care Parents",
+      role: "VPK & Before/After-Care Parents",
       stars: 5,
     },
     {
@@ -60,7 +60,7 @@ export default function Home() {
     {
       icon: ShieldCheck,
       title: "Safety & CPR Certified",
-      desc: "Strict DCF safety standards, secure facility, and certified staff.",
+      desc: "Pinellas County licensing standards, secure facility, and certified staff.",
     },
   ];
 
@@ -83,7 +83,7 @@ export default function Home() {
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
-                A Nurturing Daycare That Feels{" "}
+                A Nurturing Pre School That Feels{" "}
                 <span className="text-[#276840]">
                   Just Like Home
                 </span>
@@ -123,7 +123,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-sky-100/90 text-sky-950 border border-sky-300/80 shadow-2xs">
                   <CheckCircle2 className="w-3.5 h-3.5 text-sky-700" />
-                  <span>After School & Summer Camp</span>
+                  <span>Before & After School & Summer Camp</span>
                 </div>
               </div>
             </div>
@@ -256,7 +256,7 @@ export default function Home() {
                 A Cornerstone of the Seminole Community for Over Three Decades
               </h2>
               <p className="text-base text-slate-600 leading-relaxed">
-                Green Acres Daycare has been a cornerstone of the community for over 30 years. Our commitment to providing a safe, enriching environment for young children has made us a trusted choice for generations of families.
+                Green Acres Pre School has been a cornerstone of the community for over 30 years. Our commitment to providing a safe, enriching environment for young children has made us a trusted choice for generations of families.
               </p>
               <p className="text-base text-slate-600 leading-relaxed">
                 We believe in the importance of early childhood education and strive to create a supportive community for both children and parents. At Green Acres, we stand out by offering a curriculum that balances learning and play, preparing children for their academic journey while ensuring they have fun along the way.
@@ -293,7 +293,7 @@ export default function Home() {
               Programs Tailored for Every Milestone
             </h2>
             <p className="text-slate-600 text-sm sm:text-base">
-              At Green Acres, we offer a range of programs designed to cater to the developmental needs of children at different stages—from our infant and toddler rooms to our VPK and after-care programs.
+              At Green Acres, we offer a range of programs designed to cater to the developmental needs of children at different stages—from our toddler rooms to our VPK and before-and-after school care programs.
             </p>
           </div>
 

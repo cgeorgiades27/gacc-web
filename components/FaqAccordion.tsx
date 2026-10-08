@@ -10,9 +10,9 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "What is the staff-to-child ratio at your daycare?",
+    question: "What is the staff-to-child ratio at your pre school?",
     answer:
-      "We strictly adhere to and exceed Florida Department of Children and Families (DCF) licensing ratios for each age level (1’s, 2’s, 3’s, and VPK). Our low student-to-teacher ratios ensure that every child receives individualized attention, warmth, safety, and encouragement throughout the day.",
+      "We strictly adhere to and exceed Pinellas County child care licensing rules and regulations for each age level (1’s, 2’s, 3’s, and VPK). Our low student-to-teacher ratios ensure that every child receives individualized attention, warmth, safety, and encouragement throughout the day.",
   },
   {
     question: "Do you provide meals and snacks for the children?",
@@ -20,9 +20,9 @@ const faqs: FAQItem[] = [
       "Yes! We provide wholesome morning and afternoon snacks along with beverages (milk/water). Parents have the flexibility to pack a lunch that suits their child's unique dietary needs and preferences. We are a nut-conscious center and accommodate allergies.",
   },
   {
-    question: "What are your daycare's operating hours?",
+    question: "What are your pre school's operating hours?",
     answer:
-      "We are open Monday through Friday from 6:30 AM to 6:00 PM to comfortably support working families. We offer full-time care, morning VPK schedules, after-school care, and seasonal summer camps.",
+      "We are open Monday through Friday from 6:30 AM to 6:00 PM to comfortably support working families. We offer full-time care, morning VPK schedules, before and after school care, and seasonal summer camps.",
   },
   {
     question: "How do you handle emergencies or accidents?",

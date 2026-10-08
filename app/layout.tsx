@@ -4,17 +4,19 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Green Acres Child Care Center | Seminole, FL Daycare & VPK",
+  title: "Green Acres Child Care Center | Seminole, FL Pre School & VPK",
   description:
-    "A local, family-owned daycare proudly serving our Seminole community for over 30 years. Welcoming 1's through VPK with a nurturing, play-based environment that feels just like home.",
+    "A local, family-owned pre school proudly serving our Seminole community for over 30 years. Welcoming 1's through VPK with a nurturing, play-based environment that feels just like home.",
   keywords: [
     "Green Acres Child Care",
+    "Pre School Seminole FL",
+    "Preschool Seminole FL",
     "Daycare Seminole FL",
     "VPK Seminole FL",
     "Childcare Pinellas County",
     "Early Learning",
     "Toddler Care",
-    "After School Care",
+    "Before and After School Care",
     "Summer Camp",
   ],
   icons: {

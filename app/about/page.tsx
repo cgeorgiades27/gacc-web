@@ -15,7 +15,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About Us | Green Acres Child Care Center - Seminole, FL",
   description:
-    "Learn about Green Acres Daycare, our 30+ year history in Seminole, our director Alycia Manley, and our nurturing play-based philosophy.",
+    "Learn about Green Acres Pre School, our 30+ year history in Seminole, our director Alycia Manley, and our nurturing play-based philosophy.",
 };
 
 export default function AboutPage() {
@@ -90,7 +90,7 @@ export default function AboutPage() {
                 Over 30 Years of Caring for Seminole&apos;s Little Ones
               </h2>
               <p className="text-slate-600 text-base leading-relaxed">
-                Green Acres is a local, family-owned daycare proudly serving our community for over 30 years. We welcome children from 1’s through VPK with a nurturing, play-based environment that feels just like home.
+                Green Acres is a local, family-owned pre school proudly serving our community for over 30 years. We welcome children from 1’s through VPK with a nurturing, play-based environment that feels just like home.
               </p>
               <p className="text-slate-600 text-base leading-relaxed">
                 Our team is dedicated to providing a safe and loving space for children to learn and grow. We believe in the importance of early childhood education and strive to create a supportive community for both children and parents.

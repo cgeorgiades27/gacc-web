@@ -60,14 +60,14 @@ export const programsData: ProgramData[] = [
   },
   {
     id: "aftercare",
-    title: "After School Care",
+    title: "Before & After School Care",
     age: "Kindergarten & Up",
-    badge: "After School",
+    badge: "Before & After School",
     badgeColor: "bg-purple-100 text-purple-800 border-purple-200",
     iconImage: "/images/prog-aftercare.png",
     description:
-      "After Care provides a safe, relaxed space for students to unwind after school. We offer homework help, creative activities, and engaging playtime. It’s a supportive environment that helps children recharge while having fun.",
-    highlights: ["Homework assistance", "Nutritious afternoon snacks", "Outdoor sports & games", "Relaxed creative playtime"],
+      "Before and After Care provides a safe, relaxed space for students before the morning bell and to unwind after school. We offer homework help, creative activities, and engaging playtime. It’s a supportive environment that helps children recharge while having fun.",
+    highlights: ["Before & after school care", "Homework assistance", "Nutritious snacks", "Outdoor sports & games"],
   },
   {
     id: "summercamp",
