@@ -3,9 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #1e293b;
-  --brand-green: #276840;
-  --brand-green-dark: #1b492d;
-  --brand-green-light: #f7fbf8;
+  --brand-green: #6ea843;
+  --brand-green-dark: #588b32;
+  --brand-green-light: #f1f7ec;
   --brand-gold: #e59325;
   --brand-gold-dark: #c57b16;
   --brand-gold-light: #fef7ec;
@@ -32,23 +32,23 @@ body {
 }
 
 .bg-brand-green {
-  background-color: #276840;
+  background-color: #6ea843;
 }
 
 .bg-brand-green-dark {
-  background-color: #1b492d;
+  background-color: #588b32;
 }
 
 .text-brand-green {
-  color: #276840;
+  color: #6ea843;
 }
 
 .border-brand-green {
-  border-color: #276840;
+  border-color: #6ea843;
 }
 
 .bg-brand-sage {
-  background-color: #f7fbf8;
+  background-color: #f1f7ec;
 }
 
 .text-brand-gold {

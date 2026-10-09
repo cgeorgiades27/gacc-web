@@ -67,7 +67,7 @@ export default function ProgramsPage() {
       <section className="py-16 sm:py-24 bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14 space-y-3">
-            <div className="inline-block px-3 py-1 rounded-md bg-emerald-100 text-[#276840] text-xs font-bold uppercase tracking-wider">
+            <div className="inline-block px-3 py-1 rounded-md bg-[#f1f7ec] text-[#4d7a2c] border border-[#d2e4c4] text-xs font-bold uppercase tracking-wider">
               Classes & Ages
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
@@ -97,7 +97,7 @@ export default function ProgramsPage() {
                 Children learn best when they are happy, secure, and encouraged to explore. Our developmental curriculum integrates academic readiness with creative play and physical movement.
               </p>
               <div className="p-6 bg-white rounded-2xl border border-slate-200 shadow-xs space-y-3">
-                <div className="flex items-center gap-3 text-[#276840]">
+                <div className="flex items-center gap-3 text-[#4d7a2c]">
                   <ShieldCheck className="w-5 h-5 shrink-0" />
                   <span className="font-bold text-sm sm:text-base">Florida VPK Certified</span>
                 </div>
@@ -112,10 +112,10 @@ export default function ProgramsPage() {
                 {curriculumHighlights.map((item, idx) => (
                   <div
                     key={idx}
-                    className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-emerald-300 hover:shadow-sm transition-all"
+                    className="p-5 rounded-2xl bg-white border border-slate-200 shadow-xs hover:border-[#6ea843]/50 hover:shadow-sm transition-all"
                   >
                     <div className="flex items-center gap-2 mb-2">
-                      <span className="w-2 h-2 rounded-full bg-[#276840]" />
+                      <span className="w-2 h-2 rounded-full bg-[#6ea843]" />
                       <h4 className="font-bold text-slate-900 text-sm">{item.title}</h4>
                     </div>
                     <p className="text-xs text-slate-600 leading-relaxed">{item.desc}</p>
@@ -131,7 +131,7 @@ export default function ProgramsPage() {
       <section className="py-16 sm:py-24 bg-white border-b border-slate-200">
         <div className="max-w-4xl mx-auto px-4 sm:px-8">
           <div className="text-center mb-12 space-y-3">
-            <div className="inline-block px-3 py-1 rounded-md bg-emerald-100 text-[#276840] text-xs font-bold uppercase tracking-wider">
+            <div className="inline-block px-3 py-1 rounded-md bg-[#f1f7ec] text-[#4d7a2c] border border-[#d2e4c4] text-xs font-bold uppercase tracking-wider">
               Got Questions?
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
@@ -149,19 +149,19 @@ export default function ProgramsPage() {
               Have a specific question not answered here?
             </p>
             <p className="text-xs text-slate-600">
-              Give us a call at <a href="tel:727-393-8352" className="text-[#276840] font-bold underline">(727) 393-8352</a> or email <a href="mailto:greenacreschildcare@gmail.com" className="text-[#276840] font-bold underline">greenacreschildcare@gmail.com</a>. We are always glad to help!
+              Give us a call at <a href="tel:727-393-8352" className="text-[#4d7a2c] font-bold underline">(727) 393-8352</a> or email <a href="mailto:greenacreschildcare@gmail.com" className="text-[#4d7a2c] font-bold underline">greenacreschildcare@gmail.com</a>. We are always glad to help!
             </p>
           </div>
         </div>
       </section>
 
       {/* BOTTOM CTA */}
-      <section className="py-14 bg-[#276840] text-white">
+      <section className="py-14 bg-[#6ea843] text-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-8 text-center space-y-6">
           <h2 className="text-3xl sm:text-4xl font-extrabold">
             Ready to Enroll or Visit Our Classrooms?
           </h2>
-          <p className="text-emerald-100 text-base max-w-xl mx-auto">
+          <p className="text-white/95 text-base max-w-xl mx-auto">
             Spaces in our 1’s, 2’s, 3’s, and VPK programs fill up quickly. Get in touch with us to check current availability or book a tour.
           </p>
           <div className="flex flex-wrap justify-center gap-4 pt-2">
@@ -174,7 +174,7 @@ export default function ProgramsPage() {
             </Link>
             <a
               href="tel:727-393-8352"
-              className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-sm font-bold bg-white text-[#276840] hover:bg-emerald-50 transition-colors shadow-xs"
+              className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-sm font-bold bg-white text-[#4d7a2c] hover:bg-[#f1f7ec] transition-colors shadow-xs"
             >
               <Phone className="w-4 h-4" />
               <span>Call (727) 393-8352</span>

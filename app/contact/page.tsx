@@ -60,9 +60,9 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Phone Card */}
-            <div className="bg-[#f9fbf9] rounded-3xl p-8 border border-slate-200/80 hover:border-emerald-500/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
+            <div className="bg-[#f9fbf9] rounded-3xl p-8 border border-slate-200/80 hover:border-[#6ea843]/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
               <div className="space-y-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#f0f7f3] text-[#276840] flex items-center justify-center">
+                <div className="w-14 h-14 rounded-2xl bg-[#f1f7ec] text-[#4d7a2c] flex items-center justify-center">
                   <Phone className="w-7 h-7" />
                 </div>
                 <h2 className="text-2xl font-bold text-slate-900">Direct Phone</h2>
@@ -72,7 +72,7 @@ export default function ContactPage() {
                 <div className="pt-2">
                   <a
                     href="tel:727-393-8352"
-                    className="text-xl sm:text-2xl font-extrabold text-[#276840] hover:text-[#18462a] transition-colors block"
+                    className="text-xl sm:text-2xl font-extrabold text-[#4d7a2c] hover:text-[#3b5e20] transition-colors block"
                   >
                     (727) 393-8352
                   </a>
@@ -81,7 +81,7 @@ export default function ContactPage() {
               <div className="pt-6 mt-6 border-t border-slate-200">
                 <a
                   href="tel:727-393-8352"
-                  className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold text-white bg-[#276840] hover:bg-[#1b4b2e] transition-colors"
+                  className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold text-white bg-[#6ea843] hover:bg-[#588b32] transition-colors"
                 >
                   <Phone className="w-4 h-4" />
                   <span>Tap to Call Now</span>
@@ -90,7 +90,7 @@ export default function ContactPage() {
             </div>
 
             {/* Email Card */}
-            <div className="bg-[#f9fbf9] rounded-3xl p-8 border border-slate-200/80 hover:border-emerald-500/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
+            <div className="bg-[#f9fbf9] rounded-3xl p-8 border border-slate-200/80 hover:border-[#6ea843]/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
               <div className="space-y-4">
                 <div className="w-14 h-14 rounded-2xl bg-amber-100 text-amber-900 flex items-center justify-center">
                   <Mail className="w-7 h-7" />
@@ -102,7 +102,7 @@ export default function ContactPage() {
                 <div className="pt-2">
                   <a
                     href="mailto:greenacreschildcare@gmail.com"
-                    className="text-base sm:text-lg font-bold text-slate-800 hover:text-[#276840] transition-colors break-all block"
+                    className="text-base sm:text-lg font-bold text-slate-800 hover:text-[#4d7a2c] transition-colors break-all block"
                   >
                     greenacreschildcare@gmail.com
                   </a>
@@ -120,9 +120,9 @@ export default function ContactPage() {
             </div>
 
             {/* Location & Hours Card */}
-            <div className="bg-[#f9fbf9] rounded-3xl p-8 border border-slate-200/80 hover:border-emerald-500/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
+            <div className="bg-[#f9fbf9] rounded-3xl p-8 border border-slate-200/80 hover:border-[#6ea843]/50 shadow-xs hover:shadow-lg transition-all flex flex-col justify-between">
               <div className="space-y-4">
-                <div className="w-14 h-14 rounded-2xl bg-[#f0f7f3] text-[#276840] flex items-center justify-center">
+                <div className="w-14 h-14 rounded-2xl bg-[#f1f7ec] text-[#4d7a2c] flex items-center justify-center">
                   <MapPin className="w-7 h-7" />
                 </div>
                 <h2 className="text-2xl font-bold text-slate-900">Visit Our Center</h2>
@@ -133,7 +133,7 @@ export default function ContactPage() {
                 <div className="pt-2 space-y-1 text-xs text-slate-600">
                   <p className="font-bold text-slate-800">Hours of Operation:</p>
                   <p className="flex items-center gap-1.5 font-medium text-emerald-800">
-                    <Clock className="w-3.5 h-3.5 text-[#276840]" />
+                    <Clock className="w-3.5 h-3.5 text-[#4d7a2c]" />
                     <span>Mon – Fri: 6:30 AM – 6:00 PM</span>
                   </p>
                   <p className="text-slate-500">Saturday & Sunday: Closed</p>
@@ -144,7 +144,7 @@ export default function ContactPage() {
                   href="https://maps.google.com/?q=9110+102nd+Ave+N,+Seminole,+FL+33777"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold text-[#276840] bg-white border border-emerald-200 hover:bg-emerald-50 transition-colors"
+                  className="w-full inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold text-[#4d7a2c] bg-white border border-[#d2e4c4] hover:bg-[#f1f7ec] transition-colors"
                 >
                   <Navigation className="w-4 h-4" />
                   <span>Open in Google Maps</span>
@@ -160,7 +160,7 @@ export default function ContactPage() {
       <section className="py-16 sm:py-24 bg-[#f9fbf9] border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14 space-y-3">
-            <div className="inline-block px-3 py-1 rounded-md bg-emerald-100 text-[#276840] text-xs font-bold uppercase tracking-wider">
+            <div className="inline-block px-3 py-1 rounded-md bg-[#f1f7ec] text-[#4d7a2c] border border-[#d2e4c4] text-xs font-bold uppercase tracking-wider">
               Simple 3-Step Process
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
@@ -178,7 +178,7 @@ export default function ContactPage() {
                 className="bg-white rounded-3xl p-8 border border-slate-200 shadow-xs relative flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-2xl bg-[#276840] text-white font-extrabold text-xl flex items-center justify-center mb-6 shadow-sm">
+                  <div className="w-12 h-12 rounded-2xl bg-[#6ea843] text-white font-extrabold text-xl flex items-center justify-center mb-6 shadow-sm">
                     {step.num}
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-3">
@@ -211,15 +211,15 @@ export default function ContactPage() {
 
               <div className="space-y-3 pt-2">
                 <div className="flex items-start gap-3 text-sm text-slate-700">
-                  <CheckCircle2 className="w-5 h-5 text-[#276840] shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-[#6ea843] shrink-0 mt-0.5" />
                   <span>Spacious designated parking lot for quick, safe drop-off and pickup.</span>
                 </div>
                 <div className="flex items-start gap-3 text-sm text-slate-700">
-                  <CheckCircle2 className="w-5 h-5 text-[#276840] shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-[#6ea843] shrink-0 mt-0.5" />
                   <span>Secure electronic door entry for maximum child safety.</span>
                 </div>
                 <div className="flex items-start gap-3 text-sm text-slate-700">
-                  <CheckCircle2 className="w-5 h-5 text-[#276840] shrink-0 mt-0.5" />
+                  <CheckCircle2 className="w-5 h-5 text-[#6ea843] shrink-0 mt-0.5" />
                   <span>Convenient morning drop-offs starting early at 6:30 AM.</span>
                 </div>
               </div>
@@ -229,7 +229,7 @@ export default function ContactPage() {
                   href="https://maps.google.com/?q=9110+102nd+Ave+N,+Seminole,+FL+33777"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold text-white bg-[#276840] hover:bg-[#1b4b2e] shadow-sm transition-all"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold text-white bg-[#6ea843] hover:bg-[#588b32] shadow-sm transition-all"
                 >
                   <Navigation className="w-4 h-4" />
                   <span>Get Driving Directions</span>

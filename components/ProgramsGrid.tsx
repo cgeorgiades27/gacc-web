@@ -19,7 +19,7 @@ export const programsData: ProgramData[] = [
     title: "One-Year-Olds",
     age: "12 – 24 Months",
     badge: "1's Class",
-    badgeColor: "bg-emerald-100 text-[#276840] border-emerald-200",
+    badgeColor: "bg-[#f1f7ec] text-[#4d7a2c] border-[#d2e4c4]",
     iconImage: "/images/prog-ones.png",
     description:
       "Our 1’s explore the world through music, movement, and sensory play. Every day builds early motor, social, and language skills. With gentle guidance, they grow confidence in a warm, nurturing environment.",
@@ -94,7 +94,7 @@ export default function ProgramsGrid() {
           <div>
             {/* Top Row: Icon and Age Badge */}
             <div className="flex items-center justify-between gap-4 mb-5">
-              <div className="relative w-16 h-16 p-2 rounded-2xl bg-[#eaf3ed] border border-emerald-100 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+              <div className="relative w-16 h-16 p-2 rounded-2xl bg-[#f1f7ec] border border-[#d2e4c4] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
                 <Image
                   src={prog.iconImage}
                   alt={`${prog.title} illustration`}
@@ -113,7 +113,7 @@ export default function ProgramsGrid() {
             </div>
 
             {/* Title & Description */}
-            <h3 className="text-xl font-bold text-slate-900 group-hover:text-[#276840] transition-colors mb-3">
+            <h3 className="text-xl font-bold text-slate-900 group-hover:text-[#6ea843] transition-colors mb-3">
               {prog.title}
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mb-6">
@@ -128,7 +128,7 @@ export default function ProgramsGrid() {
               <div className="grid grid-cols-1 gap-1.5">
                 {prog.highlights.map((h, i) => (
                   <div key={i} className="flex items-center gap-2 text-xs text-slate-700">
-                    <span className="w-1.5 h-1.5 rounded-full bg-[#276840] shrink-0" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-[#6ea843] shrink-0" />
                     <span>{h}</span>
                   </div>
                 ))}
@@ -140,7 +140,7 @@ export default function ProgramsGrid() {
           <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-1.5 text-xs font-bold text-[#276840] hover:text-[#1a4b2e] group/link"
+              className="inline-flex items-center gap-1.5 text-xs font-bold text-[#4d7a2c] hover:text-[#3b5e20] group/link"
             >
               <span>Inquire & Schedule Tour</span>
               <ArrowRight className="w-3.5 h-3.5 group-hover/link:translate-x-1 transition-transform" />

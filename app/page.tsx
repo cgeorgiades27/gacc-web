@@ -84,7 +84,7 @@ export default function Home() {
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
                 A Nurturing Preschool That Feels{" "}
-                <span className="text-[#276840]">
+                <span className="text-[#6ea843]">
                   Just Like Home
                 </span>
               </h1>
@@ -97,7 +97,7 @@ export default function Home() {
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
                 <Link
                   href="/contact"
-                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full text-base font-bold text-white bg-[#276840] hover:bg-[#1b4b2e] shadow-md hover:shadow-xl hover:scale-[1.02] transition-all"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full text-base font-bold text-white bg-[#6ea843] hover:bg-[#588b32] shadow-md hover:shadow-xl hover:scale-[1.02] transition-all"
                 >
                   <Calendar className="w-5 h-5" />
                   <span>Schedule a Tour</span>
@@ -106,7 +106,7 @@ export default function Home() {
                   href="tel:727-393-8352"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full text-base font-bold text-slate-900 bg-white hover:bg-amber-50 border-2 border-amber-400 shadow-sm hover:shadow-md hover:scale-[1.02] transition-all"
                 >
-                  <Phone className="w-5 h-5 text-[#276840]" />
+                  <Phone className="w-5 h-5 text-[#6ea843]" />
                   <span>(727) 393-8352</span>
                 </a>
               </div>
@@ -114,7 +114,7 @@ export default function Home() {
               {/* Quick perks */}
               <div className="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-2.5 text-xs font-semibold">
                 <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-100/90 text-emerald-950 border border-emerald-300/80 shadow-2xs">
-                  <CheckCircle2 className="w-3.5 h-3.5 text-[#276840]" />
+                  <CheckCircle2 className="w-3.5 h-3.5 text-[#6ea843]" />
                   <span>1&apos;s through VPK</span>
                 </div>
                 <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-amber-100/90 text-amber-950 border border-amber-300/80 shadow-2xs">
@@ -145,8 +145,8 @@ export default function Home() {
                     />
                   </div>
 
-                  <div className="p-3 bg-gradient-to-r from-emerald-100/90 to-amber-100/80 border border-emerald-200/60 rounded-xl flex items-center gap-4">
-                    <div className="relative w-14 h-14 shrink-0 bg-white rounded-lg p-1 shadow-xs border border-emerald-100">
+                  <div className="p-3 bg-gradient-to-r from-[#f1f7ec] to-amber-100/80 border border-[#d2e4c4] rounded-xl flex items-center gap-4">
+                    <div className="relative w-14 h-14 shrink-0 bg-white rounded-lg p-1 shadow-xs border border-[#d2e4c4]">
                       <Image
                         src="/images/hero-illustration.png"
                         alt="Playful learning badge"
@@ -155,7 +155,7 @@ export default function Home() {
                       />
                     </div>
                     <div>
-                      <p className="font-bold text-sm text-[#276840]">
+                      <p className="font-bold text-sm text-[#4d7a2c]">
                         Play-Based Early Learning
                       </p>
                       <p className="text-xs text-slate-700">
@@ -190,9 +190,9 @@ export default function Home() {
               return (
                 <div
                   key={idx}
-                  className="p-6 rounded-2xl bg-[#f9fbf9] border border-slate-200/80 hover:border-emerald-200 hover:bg-[#f0f7f3]/50 transition-all flex items-start gap-4"
+                  className="p-6 rounded-2xl bg-[#f9fbf9] border border-slate-200/80 hover:border-[#6ea843]/50 hover:bg-[#f1f7ec]/50 transition-all flex items-start gap-4"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-[#f0f7f3] text-[#276840] flex items-center justify-center shrink-0">
+                  <div className="w-12 h-12 rounded-xl bg-[#f1f7ec] text-[#4d7a2c] flex items-center justify-center shrink-0">
                     <Icon className="w-6 h-6" />
                   </div>
                   <div>
@@ -227,7 +227,7 @@ export default function Home() {
                 </div>
                 <div className="p-6 bg-white space-y-2 border-t border-slate-100">
                   <div className="flex items-center gap-3">
-                    <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-emerald-600 shrink-0">
+                    <div className="relative w-12 h-12 rounded-full overflow-hidden border-2 border-[#6ea843] shrink-0">
                       <Image
                         src="/images/director-alycia.jpg"
                         alt="Alycia Manley, Director"
@@ -237,7 +237,7 @@ export default function Home() {
                     </div>
                     <div>
                       <p className="font-bold text-sm text-slate-900">Alycia Manley</p>
-                      <p className="text-xs text-[#276840] font-semibold">Owner & Director</p>
+                      <p className="text-xs text-[#4d7a2c] font-semibold">Owner & Director</p>
                     </div>
                   </div>
                   <p className="text-xs text-slate-500 italic pt-1">
@@ -249,7 +249,7 @@ export default function Home() {
 
             {/* Story Copy */}
             <div className="lg:col-span-7 space-y-6 order-1 lg:order-2">
-              <div className="inline-block px-3 py-1 rounded-md bg-emerald-100 text-[#276840] text-xs font-bold uppercase tracking-wider">
+              <div className="inline-block px-3 py-1 rounded-md bg-[#f1f7ec] text-[#4d7a2c] border border-[#d2e4c4] text-xs font-bold uppercase tracking-wider">
                 Our Story & Heritage
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
@@ -265,7 +265,7 @@ export default function Home() {
               <div className="pt-2 flex flex-wrap items-center gap-4">
                 <Link
                   href="/about"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold text-white bg-[#276840] hover:bg-[#1b4b2e] shadow-sm transition-all"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-bold text-white bg-[#6ea843] hover:bg-[#588b32] shadow-sm transition-all"
                 >
                   <span>Learn More About Us</span>
                   <ArrowRight className="w-4 h-4" />
@@ -286,7 +286,7 @@ export default function Home() {
       <section className="py-16 sm:py-24 bg-white border-y border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14 space-y-3">
-            <div className="inline-block px-3 py-1 rounded-md bg-emerald-100 text-[#276840] text-xs font-bold uppercase tracking-wider">
+            <div className="inline-block px-3 py-1 rounded-md bg-[#f1f7ec] text-[#4d7a2c] border border-[#d2e4c4] text-xs font-bold uppercase tracking-wider">
               Early Education & Care
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
@@ -302,7 +302,7 @@ export default function Home() {
           <div className="mt-12 text-center">
             <Link
               href="/programs"
-              className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-sm font-bold text-white bg-[#276840] hover:bg-[#1b4b2e] shadow-md transition-all"
+              className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full text-sm font-bold text-white bg-[#6ea843] hover:bg-[#588b32] shadow-md transition-all"
             >
               <span>View Full Curriculum & FAQs</span>
               <ArrowRight className="w-4 h-4" />
@@ -353,9 +353,9 @@ export default function Home() {
       </section>
 
       {/* CALL TO ACTION / VISIT US STRIP */}
-      <section className="py-16 bg-[#276840] text-white">
+      <section className="py-16 bg-[#6ea843] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-8 text-center sm:text-left">
-          <div className="bg-[#1b4b2e] rounded-3xl p-8 sm:p-12 border border-emerald-600/30 flex flex-col lg:flex-row items-center justify-between gap-8 shadow-xl">
+          <div className="bg-[#588b32] rounded-3xl p-8 sm:p-12 border border-white/20 flex flex-col lg:flex-row items-center justify-between gap-8 shadow-xl">
             <div className="space-y-4 max-w-2xl">
               <span className="inline-block bg-amber-400/20 text-amber-300 border border-amber-300/30 px-3 py-1 rounded-full text-xs font-semibold">
                 Enrollment & Tours Open
@@ -363,10 +363,10 @@ export default function Home() {
               <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
                 Ready to Experience Green Acres?
               </h2>
-              <p className="text-emerald-100 text-sm sm:text-base leading-relaxed">
+              <p className="text-white/95 text-sm sm:text-base leading-relaxed">
                 Come visit our classrooms, meet our caring educators, and see why families in Seminole have trusted us for over 30 years. We look forward to meeting you and your child!
               </p>
-              <div className="flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-emerald-200 pt-2">
+              <div className="flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-white/90 pt-2">
                 <span className="flex items-center gap-1.5">
                   <MapPin className="w-4 h-4 text-amber-300" /> 9110 102nd Ave N, Seminole FL
                 </span>
@@ -386,7 +386,7 @@ export default function Home() {
               </a>
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full text-sm font-bold bg-white text-[#276840] hover:bg-emerald-50 transition-colors shadow-xs"
+                className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-full text-sm font-bold bg-white text-[#4d7a2c] hover:bg-[#f1f7ec] transition-colors shadow-xs"
               >
                 <Calendar className="w-4 h-4" />
                 <span>Tour Information</span>

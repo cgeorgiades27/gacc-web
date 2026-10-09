@@ -83,7 +83,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
             {/* Story text */}
             <div className="lg:col-span-7 space-y-6">
-              <div className="inline-block px-3 py-1 rounded-md bg-emerald-100 text-[#276840] text-xs font-bold uppercase tracking-wider">
+              <div className="inline-block px-3 py-1 rounded-md bg-[#f1f7ec] text-[#4d7a2c] border border-[#d2e4c4] text-xs font-bold uppercase tracking-wider">
                 Our History & Purpose
               </div>
               <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
@@ -101,19 +101,19 @@ export default function AboutPage() {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
                 <div className="flex items-center gap-2 text-sm text-slate-800 font-medium">
-                  <CheckCircle2 className="w-4 h-4 text-[#276840]" />
+                  <CheckCircle2 className="w-4 h-4 text-[#6ea843]" />
                   <span>Licensed Florida Early Learning Center</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-slate-800 font-medium">
-                  <CheckCircle2 className="w-4 h-4 text-[#276840]" />
+                  <CheckCircle2 className="w-4 h-4 text-[#6ea843]" />
                   <span>Free Florida State VPK Provider</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-slate-800 font-medium">
-                  <CheckCircle2 className="w-4 h-4 text-[#276840]" />
+                  <CheckCircle2 className="w-4 h-4 text-[#6ea843]" />
                   <span>Low Teacher-to-Child Ratios</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-slate-800 font-medium">
-                  <CheckCircle2 className="w-4 h-4 text-[#276840]" />
+                  <CheckCircle2 className="w-4 h-4 text-[#6ea843]" />
                   <span>Continuous Family-Owned Legacy</span>
                 </div>
               </div>
@@ -130,9 +130,9 @@ export default function AboutPage() {
                     className="object-cover"
                   />
                 </div>
-                <div className="p-5 bg-[#eaf3ed] border-t border-emerald-100 flex items-center gap-3">
-                  <GraduationCap className="w-6 h-6 text-[#276840] shrink-0" />
-                  <p className="text-xs font-semibold text-[#276840]">
+                <div className="p-5 bg-[#f1f7ec] border-t border-[#d2e4c4] flex items-center gap-3">
+                  <GraduationCap className="w-6 h-6 text-[#4d7a2c] shrink-0" />
+                  <p className="text-xs font-semibold text-[#4d7a2c]">
                     Fostering social, emotional, and cognitive growth in every child.
                   </p>
                 </div>
@@ -167,7 +167,7 @@ export default function AboutPage() {
                 <h2 className="text-3xl font-extrabold text-slate-900">
                   Alycia Manley
                 </h2>
-                <p className="text-base font-semibold text-[#276840]">
+                <p className="text-base font-semibold text-[#4d7a2c]">
                   Owner & Director
                 </p>
                 <div className="space-y-3 text-slate-600 text-sm sm:text-base leading-relaxed">
@@ -182,14 +182,14 @@ export default function AboutPage() {
                 <div className="pt-4 flex flex-wrap items-center gap-4">
                   <a
                     href="tel:727-393-8352"
-                    className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-xs font-bold text-white bg-[#276840] hover:bg-[#1b4b2e] transition-colors"
+                    className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-xs font-bold text-white bg-[#6ea843] hover:bg-[#588b32] transition-colors"
                   >
                     <Phone className="w-3.5 h-3.5" />
                     <span>Call Alycia directly</span>
                   </a>
                   <Link
                     href="/contact"
-                    className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-xs font-bold text-[#276840] bg-[#f0f7f3] hover:bg-[#e2f0e7] transition-colors"
+                    className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full text-xs font-bold text-[#4d7a2c] bg-[#f1f7ec] hover:bg-[#e2efd7] transition-colors"
                   >
                     <Calendar className="w-3.5 h-3.5" />
                     <span>Schedule a Tour</span>
@@ -205,7 +205,7 @@ export default function AboutPage() {
       <section className="py-16 sm:py-24 bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-8">
           <div className="text-center max-w-2xl mx-auto mb-14 space-y-3">
-            <div className="inline-block px-3 py-1 rounded-md bg-emerald-100 text-[#276840] text-xs font-bold uppercase tracking-wider">
+            <div className="inline-block px-3 py-1 rounded-md bg-[#f1f7ec] text-[#4d7a2c] border border-[#d2e4c4] text-xs font-bold uppercase tracking-wider">
               What Guides Us
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
@@ -222,10 +222,10 @@ export default function AboutPage() {
               return (
                 <div
                   key={i}
-                  className="p-7 rounded-3xl bg-[#f9fbf9] border border-slate-200/80 hover:border-emerald-300 hover:shadow-md transition-all flex flex-col justify-between"
+                  className="p-7 rounded-3xl bg-[#f9fbf9] border border-slate-200/80 hover:border-[#6ea843]/50 hover:shadow-md transition-all flex flex-col justify-between"
                 >
                   <div className="space-y-4">
-                    <div className="w-12 h-12 rounded-2xl bg-[#f0f7f3] text-[#276840] flex items-center justify-center">
+                    <div className="w-12 h-12 rounded-2xl bg-[#f1f7ec] text-[#4d7a2c] flex items-center justify-center">
                       <Icon className="w-6 h-6" />
                     </div>
                     <h3 className="font-bold text-slate-900 text-lg">
@@ -286,10 +286,10 @@ export default function AboutPage() {
                   />
                 </div>
                 <div className="col-span-2 relative h-48 sm:h-64 rounded-2xl overflow-hidden shadow-md border-2 border-white">
-                  <div className="absolute inset-0 bg-[#276840] flex flex-col justify-center items-center text-center p-6 text-white space-y-2">
+                  <div className="absolute inset-0 bg-[#6ea843] flex flex-col justify-center items-center text-center p-6 text-white space-y-2">
                     <Sparkles className="w-8 h-8 text-amber-300" />
                     <h3 className="font-bold text-lg sm:text-xl">Photo Gallery Coming Soon!</h3>
-                    <p className="text-xs text-emerald-100 max-w-sm">
+                    <p className="text-xs text-white/95 max-w-sm">
                       We are expanding our photo gallery with moments from our classrooms, art projects, and outdoor playground adventures.
                     </p>
                   </div>
@@ -301,12 +301,12 @@ export default function AboutPage() {
       </section>
 
       {/* CTA STRIP */}
-      <section className="py-14 bg-[#276840] text-white">
+      <section className="py-14 bg-[#6ea843] text-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-8 text-center space-y-6">
           <h2 className="text-3xl sm:text-4xl font-extrabold">
             Want to see Green Acres in person?
           </h2>
-          <p className="text-emerald-100 text-base max-w-xl mx-auto">
+          <p className="text-white/95 text-base max-w-xl mx-auto">
             Schedule a walkthrough to meet our educators, view our classrooms, and learn more about our enrollment openings.
           </p>
           <div className="flex flex-wrap justify-center gap-4 pt-2">
@@ -319,7 +319,7 @@ export default function AboutPage() {
             </Link>
             <a
               href="tel:727-393-8352"
-              className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-sm font-bold bg-white text-[#276840] hover:bg-emerald-50 transition-colors shadow-xs"
+              className="inline-flex items-center gap-2 px-7 py-3 rounded-full text-sm font-bold bg-white text-[#4d7a2c] hover:bg-[#f1f7ec] transition-colors shadow-xs"
             >
               <Phone className="w-4 h-4" />
               <span>(727) 393-8352</span>

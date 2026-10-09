@@ -57,7 +57,7 @@ export default function FaqAccordion() {
             key={index}
             className={`border rounded-2xl transition-all overflow-hidden bg-white ${
               isOpen
-                ? "border-emerald-700/40 shadow-sm ring-1 ring-emerald-700/20"
+                ? "border-[#6ea843]/50 shadow-sm ring-1 ring-[#6ea843]/20"
                 : "border-slate-200 hover:border-slate-300"
             }`}
           >
@@ -69,7 +69,7 @@ export default function FaqAccordion() {
               <span className="font-semibold text-slate-800 text-base sm:text-lg flex items-center gap-3">
                 <HelpCircle
                   className={`w-5 h-5 shrink-0 ${
-                    isOpen ? "text-[#276840]" : "text-slate-400"
+                    isOpen ? "text-[#6ea843]" : "text-slate-400"
                   }`}
                 />
                 {faq.question}
@@ -77,7 +77,7 @@ export default function FaqAccordion() {
               <div
                 className={`p-1.5 rounded-full transition-transform duration-200 shrink-0 ${
                   isOpen
-                    ? "bg-[#eaf3ed] text-[#276840] rotate-180"
+                    ? "bg-[#f1f7ec] text-[#4d7a2c] rotate-180"
                     : "bg-slate-100 text-slate-500"
                 }`}
               >
