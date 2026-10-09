@@ -18,7 +18,7 @@ export default function Footer() {
               />
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
-              A local, family-owned pre school proudly serving Seminole and Pinellas County for over 30 years. Providing a nurturing, play-based environment that feels just like home.
+              A local, family-owned preschool proudly serving Seminole and Pinellas County for over 30 years. Providing a nurturing, play-based environment that feels just like home.
             </p>
             <div className="flex items-center gap-2 text-xs text-amber-400 font-medium">
               <ShieldCheck className="w-4 h-4 text-emerald-400" />

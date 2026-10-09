@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Programs & Curriculum | Green Acres Child Care Center - Seminole, FL",
   description:
-    "Explore our age-specific pre school programs: 1's, 2's, 3's, Florida VPK, Before and After School Care, and Summer Adventure Camp in Seminole, FL.",
+    "Explore our age-specific preschool programs: 1's, 2's, 3's, Florida VPK, Before and After School Care, and Summer Adventure Camp in Seminole, FL.",
 };
 
 export default function ProgramsPage() {
@@ -55,7 +55,7 @@ export default function ProgramsPage() {
             <span>Nurturing Environments for Every Stage</span>
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
-            Our Pre School & VPK Programs
+            Our Preschool & VPK Programs
           </h1>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
             From our 1’s sensory room to our Florida State-Funded VPK classrooms, every program at Green Acres is structured to inspire a lifelong joy of learning.

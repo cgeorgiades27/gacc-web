@@ -27,7 +27,7 @@ export default function Home() {
     },
     {
       quote:
-        "Knowing our child is in a safe, loving, and family-owned pre school makes all the difference. Miss Alycia and her teachers treat every kid like family.",
+        "Knowing our child is in a safe, loving, and family-owned preschool makes all the difference. Miss Alycia and her teachers treat every kid like family.",
       author: "Michael & Jessica R.",
       role: "VPK & Before/After-Care Parents",
       stars: 5,
@@ -83,7 +83,7 @@ export default function Home() {
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.15]">
-                A Nurturing Pre School That Feels{" "}
+                A Nurturing Preschool That Feels{" "}
                 <span className="text-[#276840]">
                   Just Like Home
                 </span>
@@ -256,7 +256,7 @@ export default function Home() {
                 A Cornerstone of the Seminole Community for Over Three Decades
               </h2>
               <p className="text-base text-slate-600 leading-relaxed">
-                Green Acres Pre School has been a cornerstone of the community for over 30 years. Our commitment to providing a safe, enriching environment for young children has made us a trusted choice for generations of families.
+                Green Acres Preschool has been a cornerstone of the community for over 30 years. Our commitment to providing a safe, enriching environment for young children has made us a trusted choice for generations of families.
               </p>
               <p className="text-base text-slate-600 leading-relaxed">
                 We believe in the importance of early childhood education and strive to create a supportive community for both children and parents. At Green Acres, we stand out by offering a curriculum that balances learning and play, preparing children for their academic journey while ensuring they have fun along the way.
